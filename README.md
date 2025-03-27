@@ -87,8 +87,8 @@ The three structures that were not labelled "Dubious Open Reading Frames" obtain
 ![Alt text describing the image](images/fig5.png)
 Figure 5. FoldSeek structural alignments of three ‘non-uniprot’ ColabFold models with their respective top PDB hit.
 
+
 Generally, the predicted structures were shorter than their respective hits. This reinforces the idea that the sequences from FungiDB may be incomplete gene annotations due to errors in ORF prediction or premature stop codons in the genome assembly.  Also in some cases (e.g CR_04990C_A) additional disordered loop regions appear in the model do not align with the PDB hit, this could indicate introns present in the sequence.  The same method was used with the "Dubious Open Reading Frames" set.  C1_06140_A produced several hits with the top hit having 80% probability (Figure 6 a).  The remaining two models did not get a hit with FoldSeek.  Although FoldSeek is extremely fast is sacrifices accuracy due, therefore, DALI was used to perform the PDB screen with the remining two models.  CR_06350C_A did not get any hits with DALI but C1_12460C_A did get a number of hits with the top Z score being 5.8.  Again these result show partial hits with whole structures which could indicate ORF prediction errors.
-![image](https://github.com/user-attachments/assets/59b99407-26f1-472d-84e9-d199805516e2)
 
 ![Alt text describing the image](images/fig6.png)
 Figure 6. Structural alignments of three ‘non-uniprot’ ColabFold models with their respective top PDB hit. A) uses FoldSeek to perform the alignment and b. uses DALI.
