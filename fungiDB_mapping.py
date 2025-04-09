@@ -66,7 +66,7 @@ for entry in fungi_prot_lines:
     while len(row) < len(df.columns):
         row.append(None)  # Fill missing values with None
 
-    df.loc[len(df)] = row  # Now, row length matches df.columns
+    df.loc[len(df)] = row  # Ahhh - here's the problem causing my duplicates!
 
     df.loc[len(df)] = row
 
